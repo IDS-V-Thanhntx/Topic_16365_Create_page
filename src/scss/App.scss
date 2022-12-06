@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.PageOne{
+  background-color:#EFEFEF !important;
+  height: 1000vh;
+}
+
+.logo{
+  position: absolute;
+  top: 84px;
+  left: 609px;
+  opacity: 1;
+  img{
+    width: fit-content;
+    height: 150px;
+  }
+}
+
+.login{
+  position: absolute;
+  top: 292px;
+  left: 280px;
+  width: 665px;
+  height: 350px;
+  border: 1px solid #DDDDDD;
+}
+
+.span{
+  position: absolute;
+  top: 292px;
+  left: 975px;
+  width: 665px;
+  height: 350px;
+  border: 1px solid #DDDDDD;
+}
+
+.flex {
+button{
+  border: 1px solid #FF4D00 !important;
+  color: #FF4D00;
+  width: 200px;
+}
+button:hover{
+  background-color: #FF4D00;
+  color: white;
+}
+}
+
+.label-input{
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+InputGroup{
+  position: absolute;
+  top: 384px;
+  left: 469px;
+  width: 400px;
+  height: 40px;
+}
+
+.link-icon{
+  border: 1px solid #DDDDDD;
+  border-radius: 5px;
+  height: 70px;
+  width: 300px !important;
+}
+
+.ahref{
+  position:absolute;
+  top: 655px;
+  left: 522px;
+  width: fit-content;
+  height: 18px;
+  color: #333333;
+}
+.footer{
+  width: 100%;
+  background-color: #333333;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  height: 50px;
+  a{
+    color: white;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+  }
+}
