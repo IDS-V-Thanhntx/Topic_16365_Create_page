@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  background-color:#EFEFEF;
+}
+.PageOne{
+    width: 100%;
+    background-color: #EFEFEF;
+    margin-top: 84px;
+}
+
+.logo{
+  img{
+    width: 442px;
+    height: 94px;   
+  }
+}
+
+label{
+    color: #333333;
+    font-weight: bolder;
+}
+
+.inline {
+  .login{
+    height: 350px !important;
+    border: 1px solid #DDDDDD;
+    button{
+      border: 1px solid #FF4D00 !important;
+      color: #FF4D00;
+      height: 40px;
+      font-weight: bold;
+      opacity: 100%;
+      margin-top: 34px;
+      font-size: 14px;
+    }
+    button:hover{
+      background-color: #FF4D00;
+      color: white;
+    }
+  }
+
+  .link{
+    text-decoration: revert;
+    color: #333333;
+  }
+
+  .span{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    height: 350px;
+    border: 1px solid #DDDDDD;
+    button:hover{
+      background-color: #F6F6F6;
+
+    }
+    .link-icon{
+      display: flex;
+      margin-bottom: 20px !important;
+      border: 1px solid #DDDDDD;
+      border-radius: 5px;
+      height: 70px;
+      width:  50% !important;
+    }
+  }
+
+
+.input-group{
+    margin-top: 26px;
+    margin-bottom: 15px;
+    .label-input{   
+        font-weight: bold ;
+        font-size: 14px;
+        margin: auto;
+        margin-right: 42px;
+      }
+    input{
+        width: 2/3;
+        height: 2/3;
+        font-size: 14px;
+    }
+    .form-check
+    {
+        display: flex;
+        margin-left: 110px;
+        input{
+            width: 20px;
+            height: 20px;   
+            display: flex;
+            margin-right: 15px;
+            font-size: 14px;
+        }
+    }  
+  } 
+}
+
+.footer{
+  width: 100%;
+  background-color: #333333;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  height: 45px;
+  a{
+    color: white;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+  }
+}
